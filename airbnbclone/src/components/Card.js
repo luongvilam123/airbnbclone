@@ -1,7 +1,7 @@
 
 import starticon from "../images/starticon.png"
 export default function Card(props){
-    console.log(props)
+    
     return (
         <div className="card">
             <img className="card-logo" src={props.image} alt="logocard"></img>
