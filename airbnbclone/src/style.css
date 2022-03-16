@@ -58,6 +58,8 @@ section{
     border-radius: 9px;
     max-height: 50%;
     
+    
+    
 }
 .card-stats{
     display: flex;
@@ -80,7 +82,7 @@ section{
 .card-badge{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(231, 76, 60);
-    background-color: rgb(149, 165, 166);
+    background-color: rgb(11, 23, 24);
     border-radius: 15px;
     padding-left: 2px;
     margin: 2px;
