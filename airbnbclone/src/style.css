@@ -45,15 +45,19 @@ section{
 .card{
     width: 25%;
     font-size: 12px;
-    border-style: solid;
+    border-style: outset;
+    border-radius: 15px;
+    border-color: rgb(231, 76, 60);
   /*  background-color: green;*/
     padding: 5px;
     margin: 5px;
+    position: relative;
 }
 .card-logo{
     width: 100%;
     border-radius: 9px;
     max-height: 50%;
+    
 }
 .card-stats{
     display: flex;
@@ -70,6 +74,17 @@ section{
  }   
 .CardList{
     display: flex;
+    flex-direction: row;
 
+}
+.card-badge{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 76, 60);
+    background-color: rgb(149, 165, 166);
+    border-radius: 15px;
+    padding-left: 2px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
 }
     
