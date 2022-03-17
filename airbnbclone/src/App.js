@@ -7,8 +7,8 @@ import data from "./Data/data"
      const cardList=data.map((item)=> { return( 
 
             <Card key={item.id} 
-                  /*item={item}*/
-                  {...item} />
+                  item={item}
+                  /*{...item}*/ />
                   )
             })
             
